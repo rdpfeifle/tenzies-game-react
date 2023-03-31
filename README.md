@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Tenzies Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple dice game where the goal is to roll 10 dice with the same value and fully responsive.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+1. Clone this repository to your local machine.
+2. Open your terminal and navigate to the project folder.
+3. Install the dependencies by running `npm install`.
+4. Start the app by running `npm start`.
 
-### `npm start`
+## How to Play
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Click the 'Roll Dice' button to roll all 10 dice.
+2. Click on individual dice to hold or release them from rolling.
+3. Roll the dice again until all 10 dice have the same value.
+4. Once all 10 dice have the same value, you win!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Tenzies Game](/public/tenzies.gif)
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React.js, JavaScript, Jest, React Confetti (https://www.npmjs.com/package/react-confetti), nanoid (https://www.npmjs.com/package/nanoid), Chat GPT
 
-### `npm run build`
+## Unit Tests
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The Die component has been tested using Jest.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Running the Tests
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run the tests, follow these steps:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Navigate to the project folder in the terminal.
+2. Run the command npm test.
+3. The Jest test runner will run the test suite and display the results in the terminal.
