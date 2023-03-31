@@ -12,7 +12,7 @@ A simple dice game where the goal is to roll 10 dice with the same value and ful
 ## How to Play
 
 1. Click the 'Roll Dice' button to roll all 10 dice.
-2. Click on individual dice to hold or release them from rolling.
+2. Click on individual dice to hold.
 3. Roll the dice again until all 10 dice have the same value.
 4. Once all 10 dice have the same value, you win!
 
